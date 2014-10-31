@@ -38,17 +38,6 @@ implements KlickReagierbar, RechtsKlickReagierbar {
 	}
 	
 	/**
-	 * Taste-Reagieren-Methode. Wird hier nicht gebraucht, da wir nur die Maus verwenden.
-	 * @param code Der Tasten-Code der runtergedrückten Taste.
-	 */
-	@Override
-	public void tasteReagieren(int code) {
-		//Nichts zu tun.
-	}
-	
-	
-
-	/**
 	 * Diese Methode wird bei jedem Rechtsklick aufgerufen.
 	 * 
 	 * Bei einem Rechtsklick wird dann ein kleiner, blauer Kreis auf den Klick-Punkt
@@ -93,6 +82,15 @@ implements KlickReagierbar, RechtsKlickReagierbar {
 	}
 	
 	
+	
+	/**
+	 * Taste-Reagieren-Methode. Wird hier nicht gebraucht, da wir nur die Maus verwenden.
+	 * @param code Der Tasten-Code der runtergedrückten Taste.
+	 */
+	@Override
+	public void tasteReagieren(int code) {
+		//Nichts zu tun.
+	}
 	
 	/**
 	 * Main Methode. Hiermit kann man die Demo starten.
